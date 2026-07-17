@@ -7,8 +7,8 @@
 **Ornstein–Uhlenbeck mean-reverting noise component — organic procedural motion for any actor. Sequencer-ready.**
 
 [![Get on Fab](https://img.shields.io/badge/Get%20it%20on-FAB-00d4aa?style=for-the-badge&logo=unrealengine&logoColor=white)](https://www.fab.com/sellers/REMrepo)
-[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.6%20%C2%B7%205.7%20%C2%B7%205.8-313131?style=for-the-badge)](https://github.com/REMvisual/ue-BrownianMotion/releases/latest)
-[![Tests](https://img.shields.io/badge/Automation%20Tests-43-313131?style=for-the-badge)](https://github.com/REMvisual/ue-BrownianMotion/releases/latest)
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.6%20%C2%B7%205.7%20%C2%B7%205.8-313131?style=for-the-badge)](https://www.fab.com/sellers/REMrepo)
+[![Tests](https://img.shields.io/badge/Automation%20Tests-43-313131?style=for-the-badge)](https://www.fab.com/sellers/REMrepo)
 
 ![Views](https://komarev.com/ghpvc/?username=REMvisual-ue-BrownianMotion&style=flat-square&color=00d4aa&label=views)
 
@@ -18,7 +18,7 @@
 
 Brownian Motion is an Unreal Engine plugin by [REMrepo](https://github.com/REMvisual). It adds a C++ SceneComponent that drives any actor with Ornstein–Uhlenbeck mean-reverting noise — motion that wanders organically but always pulls back toward center. Unlike random noise (jitters), Perlin noise (tiles), or sine waves (repeat), OU noise models a physical particle suspended in fluid: the result reads as *alive*.
 
-This repository hosts **release packages** for Fab distribution and the public **issue tracker**. Full C++ source (two modules, 43 automation tests) is included inside every package.
+This repository is the public **issue tracker** and product page for the plugin. The plugin ships with full C++ source (two modules, 43 automation tests).
 
 <img src="assets/card-features.png" alt="Feature overview" width="820"/>
 
@@ -38,17 +38,9 @@ This repository hosts **release packages** for Fab distribution and the public *
 
 ## Install
 
-1. Get Brownian Motion on [Fab](https://www.fab.com/sellers/REMrepo) (installs via the Epic Games Launcher), or extract a release package into your project's `Plugins/` folder (so you have `Plugins/BrownianMotion/BrownianMotion.uplugin`)
+1. Get Brownian Motion on [Fab](https://www.fab.com/sellers/REMrepo) — installs via the Epic Games Launcher for UE 5.6, 5.7, and 5.8
 2. Launch the editor and enable **Brownian Motion** under Edit → Plugins
 3. Add a **Brownian Motion** component to any actor — motion starts with sensible defaults on Play
-
-| Engine | Package |
-|---|---|
-| UE 5.8 | `BrownianMotion_v2.0.2_UE5.8.zip` |
-| UE 5.7 | `BrownianMotion_v2.0.2_UE5.7.zip` |
-| UE 5.6 | `BrownianMotion_v2.0.2_UE5.6.zip` |
-
-Packages are source-only (Fab-compliant) — the editor compiles the plugin on first launch, or build with your project as usual.
 
 ## Use cases
 
