@@ -42,6 +42,10 @@ This repository is the public **issue tracker** and product page for the plugin.
 2. Launch the editor and enable **Brownian Motion** under Edit → Plugins
 3. Add a **Brownian Motion** component to any actor — motion starts with sensible defaults on Play
 
+## Documentation
+
+**[📖 Full documentation → DOCUMENTATION.md](DOCUMENTATION.md)** — setup, both usage modes, complete parameter reference (every default and range), Blueprint API, Sequencer integration, recipes (drift, handheld camera, jitter), performance notes, and troubleshooting.
+
 ## Use cases
 
 Floating debris and particles · camera drift and handheld shake · ambient object motion (lanterns, buoys, signs) · procedural idle animation · atmospheric fog/light drift · cinematic camera wander.
